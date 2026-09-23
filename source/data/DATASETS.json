@@ -1,0 +1,105 @@
+{
+  "airfoil221x51": {
+    "files": {
+      "NACA_Cylinder_Q.npy": {
+        "sha256": "f79dfdaa3be95a5183981531e59b5a372cf3dd69986109f45426b3eb5410c58c",
+        "size_bytes": 1122591728,
+        "source_url": "https://drive.usercontent.google.com/download?id=1AjW0t0YolY680J6xTQJ_g5bqTSJAZDZc&export=download&confirm=t"
+      },
+      "NACA_Cylinder_X.npy": {
+        "sha256": "23902420694ba8552e427480aa6b26c08ea4e7e0b2454ee83cd9e1d29060f35f",
+        "size_bytes": 224518448,
+        "source_url": "https://drive.usercontent.google.com/download?id=16EY0obqsccypaDFVY0wlsXX73SlD5TMy&export=download&confirm=t"
+      },
+      "NACA_Cylinder_Y.npy": {
+        "sha256": "710c77e42c3fe49edcfc951b59693511e12f5491f9dcb77a506f395178481155",
+        "size_bytes": 224518448,
+        "source_url": "https://drive.usercontent.google.com/download?id=1rJUPtIhTAsG8TQnqV5mljjgQlyz0NJvJ&export=download&confirm=t"
+      }
+    },
+    "n_test": 200,
+    "n_train": 1000,
+    "resolution": [221, 51],
+    "source": "https://drive.google.com/drive/folders/1YBuaoTdOSr_qzaow-G-iwvbUI7fiUzu8"
+  },
+  "burgers1d": {
+    "files": {
+      "1D_Burgers_Sols_Nu0.001.hdf5": {
+        "sha256": "afeeed1c40ce01d2ba5e1702f4f66b6bf95c65943eb0e4847691e9a10d1cb50d",
+        "size_bytes": 8232968312
+      }
+    },
+    "n_test": 200,
+    "n_train": 1000,
+    "resolution": 1024,
+    "source": "https://darus.uni-stuttgart.de/api/access/datafile/268190"
+  },
+  "cfd1d1024": {
+    "files": {
+      "1D_CFD_Rand_Eta0.01_Zeta0.01_periodic_Train.hdf5": {
+        "sha256": "86a2b8cf81f40191dbc40a7c2a9b268784979f2c1c269b59daa23c83885ebe8f",
+        "size_bytes": 12410888600
+      }
+    },
+    "n_test": 200,
+    "n_train": 1800,
+    "resolution": 1024,
+    "source": "https://darus.uni-stuttgart.de/api/access/datafile/164672"
+  },
+  "cfd2d128": {
+    "files": {
+      "2D_CFD_Rand_M0.1_Eta0.01_Zeta0.01_periodic_128_Train.hdf5": {
+        "sha256": "8f21323cb7b61e80dd6d5ed93190bbba4b1a3e462b4be927d75a8fb0e286f3e4",
+        "size_bytes": 55050245208
+      }
+    },
+    "n_test": 200,
+    "n_train": 1800,
+    "resolution": [128, 128],
+    "source": "https://darus.uni-stuttgart.de/api/access/datafile/164687"
+  },
+  "darcy128": {
+    "files": {
+      "darcy_test_128.pt": {
+        "sha256": "549ac096e1a772ac355297deed98955f7ca6d03c97295705f66e3c194cf20382",
+        "size_bytes": 131072935
+      },
+      "darcy_train_128.pt": {
+        "sha256": "b0b98f29679459f9eeb03657835b683140abf186f62bcc92efb886f022d1447c",
+        "size_bytes": 655360935
+      }
+    },
+    "n_test": 200,
+    "n_train": 1000,
+    "resolution": 128,
+    "source": "https://zenodo.org/records/12784353"
+  },
+  "ns128": {
+    "files": {
+      "nsforcing_test_128.pt": {
+        "sha256": "a7e1ed8ebc050317b8ccb7ef35dfc488e835337fcdefc62f56e01596accccbe5",
+        "size_bytes": 262144935
+      },
+      "nsforcing_train_128.pt": {
+        "sha256": "6c145749f40aa1f00c2088e662f6668e1ca98018353a0f27a814732278c1a964",
+        "size_bytes": 1310720935
+      }
+    },
+    "n_test": 200,
+    "n_train": 1000,
+    "resolution": 128,
+    "source": "https://zenodo.org/records/12825163"
+  },
+  "reacdiff1024": {
+    "files": {
+      "ReacDiff_Nu0.5_Rho1.0.hdf5": {
+        "sha256": "0ccd649b1d5ecca8a5ae417a506dec5ef57ea365f7bce46afa190d34fe02dcc7",
+        "size_bytes": 4136968376
+      }
+    },
+    "n_test": 200,
+    "n_train": 1000,
+    "resolution": 1024,
+    "source": "https://darus.uni-stuttgart.de/api/access/datafile/133177"
+  }
+}

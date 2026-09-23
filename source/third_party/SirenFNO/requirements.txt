@@ -1,0 +1,12 @@
+torch==2.8.0
+numpy
+h5py
+scipy
+tensorly
+tensorly-torch
+opt_einsum
+requests
+tqdm
+pyyaml
+matplotlib
+wandb  # optional, only needed if wandb logging is enabled

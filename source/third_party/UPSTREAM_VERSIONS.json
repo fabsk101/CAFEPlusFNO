@@ -1,0 +1,35 @@
+{
+  "SirenFNO": {
+    "bundled_neuraloperator": {
+      "declared_version": "1.0.2",
+      "git_tree_sha1": "fbc6aa738d6ffc2e2ca6808e724b0083c3a688eb",
+      "path": "third_party/SirenFNO/neuralop"
+    },
+    "commit": "81918ecce323a2fd5c5a54db917598bda088574b",
+    "git_tree_sha1": "57e60feff96fa38a48227dd5217b6a99fe0e8402",
+    "license": "MIT",
+    "license_file": "third_party/SirenFNO/LICENSE",
+    "local_modifications": "none",
+    "repository": "https://github.com/pengqingshi/SirenFNO.git",
+    "source_files": {
+      "SirenFNO2D.py": {
+        "path": "third_party/SirenFNO/SirenFNO2D.py",
+        "git_blob_sha1": "b0a987e42cd00547dfa64d0e4dfa619ee7106730"
+      },
+      "baseline/AMFNO.py": {
+        "path": "third_party/SirenFNO/baseline/AMFNO.py",
+        "git_blob_sha1": "70b2affe7237e0123ef0baa0bd970b62ec87a020"
+      },
+      "baseline/UFNO.py": {
+        "path": "third_party/SirenFNO/baseline/UFNO.py",
+        "git_blob_sha1": "594dfbc7147ffe737930eaa12e12330c085448d3"
+      }
+    },
+    "usage": [
+      "bundled NeuralOperator",
+      "AM-FNO",
+      "U-FNO",
+      "SirenFNO"
+    ]
+  }
+}

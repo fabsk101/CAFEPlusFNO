@@ -1,0 +1,25 @@
+{
+  "approved_changes": [
+    {
+      "baseline_sha256": "56cc2b92ac67228a0ef9b362ce42f73d75e251aaffa6562c168c6fde207b6769",
+      "deployment_sha256": "ddf92ec7d735b22a88ef26d01e22cab45623cffeb6995c4ed4ff4c36b2280dc2",
+      "path": "scripts/audit_anonymity.py",
+      "scope": "anonymous release false-positive handling only",
+      "training_or_evaluation_effect": false
+    },
+    {
+      "baseline_sha256": "0b9197314f553b2ae17a63b366f6f9e35dfbfe27ab97db3e7b629b91c53afc2c",
+      "deployment_sha256": "0010c3501ff24e7a70eaddf6fbfbc22e105ebda3e258eea9004fa7dc07fb488f",
+      "path": "tests/test_release.py",
+      "scope": "anonymous release regression coverage only",
+      "training_or_evaluation_effect": false
+    }
+  ],
+  "base_source_commit": "5d1ec68dfe2774b74eec45f402b6f7f028a47b3e",
+  "baseline_manifest": "source_manifest_baseline_c.json",
+  "baseline_manifest_sha256": "647cbaaf1132c8bc0a32936081d33b6c266e89c85e0c4801ec4e818d2e9eb47a",
+  "compatibility_id": "anonymity-audit-release-v1",
+  "normalization": "CRLF to LF; all other bytes preserved",
+  "provenance_claim": "The baseline remains the training source. These exact deployment-only changes are not claimed as training source.",
+  "schema_version": 1
+}

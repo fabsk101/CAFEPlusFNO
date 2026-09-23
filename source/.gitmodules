@@ -1,0 +1,3 @@
+[submodule "third_party/SirenFNO"]
+	path = third_party/SirenFNO
+	url = https://github.com/pengqingshi/SirenFNO.git

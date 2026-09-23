@@ -1,0 +1,8 @@
+name: anonymous-cafe-plus-fno
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13.11
+  - pip
+  - pip:
+      - -r requirements-lock.txt

@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Editors
+.idea/
+.vscode/
+
+# Data & checkpoints (only root-level Data/ — do NOT match neuralop/data/ source dir)
+/Data/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.npz
+*.zip
+*.mat
+
+# Logs
+wandb/
+runs/
+logs/
+*.log

@@ -1,0 +1,54 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Build and packaging outputs
+build/
+dist/
+*.egg-info/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Experiment trackers, logs, checkpoints, and model artifacts
+wandb/
+logs/
+checkpoints/
+debug/
+tmp/
+*.log
+*.prof
+*.trace
+*.nsys-rep
+*.sqlite
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# Datasets are external; keep only public metadata and acquisition code.
+data/**
+!data/README.md
+!data/download_data.py
+!data/DATASETS.json
+
+# Generated results are external and excluded from source releases.
+results/**

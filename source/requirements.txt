@@ -1,0 +1,2 @@
+# Convenience entry point for the verified public dependency lock.
+-r requirements-lock.txt

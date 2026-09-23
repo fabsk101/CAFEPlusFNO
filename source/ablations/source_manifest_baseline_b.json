@@ -1,0 +1,446 @@
+{
+  "approved_datasets": [
+    "airfoil",
+    "burgers1d",
+    "cfd1d",
+    "cfd2d",
+    "reacdiff1d"
+  ],
+  "base_source_commit": "647c70002e2cfda34878227fbde69b7cbdefbd09",
+  "baseline_profile": "B",
+  "evidence_sha256": {
+    "change_review.json": "6314baacf43d6832beecb6f0fec246a0355fa8a718e0aacf77d49a3e0b73a879",
+    "git_worktree_notes.json": "14603d1c9c05206b23ba5af76999783e2c3f4072ce529952dd89d881b080d733",
+    "model_comparison.json": "53786547dbeb0b23ef2c97d02f297f2c62b3759a1b537fbfc2412080da360452",
+    "models_B.json": "9adb742bde9788182d806e5c9035dbbe8376847900f6431911a6917c58e01baf",
+    "snapshot_inspection.json": "3d3a49d50f07a07c8444d9c6f4e9ade032ec55230943b06f96c8b9d64b469f13"
+  },
+  "excluded_datasets": [
+    "darcy",
+    "ns2d"
+  ],
+  "files": {
+    "data/DATASETS.json": "835e41da54fac48609ac3873b5ffef923974df0495f5b71e11d9a81627227aee",
+    "data/download_data.py": "db6a55a53ff91a8217cdd8d5b661dfda05e35c37a22b013ba3fef8a0ac55dd02",
+    "environment.yml": "4ac37d89c79506cb997ac9654b294155f6b136a3699c2482f15dafd050a95fe6",
+    "experiments/__init__.py": "80334e43efe89c17ca0b27b9b9e9bf58b3837af971cd821700bba19c20415205",
+    "experiments/common/__init__.py": "411231275ec6374f1c6e321a1c0362e2be1292ac3bd823cf0bc2e61e368f344f",
+    "experiments/common/checkpoints.py": "ae60844fbe88fa8d73c74590b5936c657a6c733a10ea92a9cc48f8bc1f524a97",
+    "experiments/common/dataset_provenance.py": "b4ddd80cf5a134b51d6fc3eeaec113c9c90cea4dd69f379e87757680353f19b5",
+    "experiments/common/evaluation.py": "16a92b2018171cc88053ac9209da2a6f1e8be337fd1c8b02d0c91dae0d1fc5d9",
+    "experiments/common/seed.py": "3908e87b6939d9de30c990d1dd63f879263347cc8d98fabf559950f6b30689bc",
+    "experiments/common/sirenfno_backend.py": "1e779858e32f6fdc291857a94bb418b3d0f6d31b8fa6347c9c5dc78f92c098b2",
+    "experiments/configs/__init__.py": "002f6d7a41abc742fd43ffe04e2638ba57f8081029bb1027b0fb9c666754c30b",
+    "experiments/configs/airfoil.py": "c122321e7a975dbd4fd58c0c3062b5834c31d510a8ff0e27e44ead55163c6ca7",
+    "experiments/configs/burgers1d.py": "b0701f38786c009d503671611b46898ec62da7178e35349603b717429f62f8ce",
+    "experiments/configs/cfd1d.py": "0102395a0fc032f69e617b58bac64c66ae5d5ca4e262b4c25c83ac3fcdce8700",
+    "experiments/configs/cfd2d.py": "0d16d4ed3d2e378c41ad7660fc54298ce9a7a233523304c757735b61f45d7746",
+    "experiments/configs/darcy.py": "1c028a28fb50bbde75bc6154d8367275b7dcba405ac51bb9f7cfe40d91b20d76",
+    "experiments/configs/ns2d.py": "f1210e71c8f3e59b35267e3780a7df6a0e1876c1d850f9d95b6454ad9171a8ef",
+    "experiments/configs/reacdiff1d.py": "a9a598565308cffc4446a26db784fc57cd5724a0341ecb949533875074c23993",
+    "experiments/configs/seeds.py": "6d12e446ca80098865e957e713ab50d8a3e47432c425a50c0f8419f1337a07b3",
+    "experiments/train_airfoil.py": "d39b29f0755b2423522ee4114c20c3389579def4918097eaa31e92bb1950a4a4",
+    "experiments/train_burgers.py": "808f93ac2fea57ca4347fe51ab5c6c35296cc795f5a0304c543877a1cd96f872",
+    "experiments/train_cfd1d.py": "3002f8a5b0079b021127ed1645a07ce92197bdcec5b87fa86be29fe4a40bfaff",
+    "experiments/train_cfd2d.py": "60cfa783d77fba48da10f276ecba757c235574ceaa9b4ef717867be9d83806b9",
+    "experiments/train_darcy.py": "42b9702c3ec81fb4961a63da96f1d8c535939b4dea4e48ead665bfdfe581e95d",
+    "experiments/train_ns2d.py": "38646283cff5b8d4bea3e5de19225d37f74b9930e57c95616baf57b2fd4f54bb",
+    "experiments/train_reacdiff.py": "bb4a31dca01650df65511b35940428220ba645fc922b316ba13c23e95639b92f",
+    "models/Cafe_Plus_FNO1D.py": "bcbfddc6b22f7bc154660050629dd61b4d08f5981abb122d170de741f01f8df5",
+    "models/Cafe_Plus_FNO2D.py": "a28d1a5219f449ae59db9c079ab8abab6d3f29b762a10e24cd5267a8dd9bef42",
+    "models/__init__.py": "0db008fa9ad4483c5e611a862390322ca921d35e82aede511a1e5dc568967a4b",
+    "pyproject.toml": "25173f2d17623335ce33be2ff0f3dd7a03737d5d01c93d4ce9ac06fca0c7e703",
+    "requirements-lock.txt": "f24acacfc7a0c81afd7b5ae8172f380351fd7296d8c72b082f75934bb0db53f7",
+    "requirements.txt": "58f18806492635d1653c60b1b29e7ea2809ec0146fc09e8f73ac88b91dd689e5",
+    "scripts/audit_anonymity.py": "56cc2b92ac67228a0ef9b362ce42f73d75e251aaffa6562c168c6fde207b6769",
+    "scripts/audit_reproducibility.py": "021f0664ee3c811e0cd16c70125cd850c07fb69dd33fbfa0ac6880229f52a870",
+    "scripts/build_anonymous_release.py": "5106b9dd6e8d9c42b3ceedf8bf05a624b40955986bebc32b9cbd7f1b289d3dbd",
+    "scripts/build_review_snapshot.py": "9365c8adc2b16cb90f0e207e414c5afb6f911f9d25d857abcbaaa3a8bdb40473",
+    "scripts/run_cafe_darcy_sweep.py": "53394947cf1893676baeba01738877a35e7ed8d3d6a68064ddaf24020ba6dfb4",
+    "scripts/run_paper_sweep.py": "560dee28326721288a79c444405a144ec7fa3c25829f60bc6a933cf224353f92",
+    "scripts/setup_sirenfno.py": "ba9251c1808be6ada7d259e44a4c7b837977f89264d11454ed8efdef1301352c",
+    "scripts/summarize_results.py": "b3531d5d9296218f7d43b1881cc9851cea6a649dd68cedc804c76aa1a6647c2f",
+    "scripts/verify_environment.py": "1131aefa0e40fda891b69aa68289aa734d1fc47a2627a97f887900a74503674c",
+    "tests/__init__.py": "25f4874fc4c55e53509555568b7649c6ca08de726d72fc72f444521ad4c50bf8",
+    "tests/test_cafe_compact.py": "491cd69e9653d8a03ad1c2e12b35af9810fdee75df76687b5911bd204d7be976",
+    "tests/test_cafe_factorizations.py": "f8ce2ca39ead5226a02f494ae4cf8d8bf69e6b9690d3dfacf721d586c847b5c4",
+    "tests/test_cafe_reproducibility.py": "2532af9ebe0c57c28db0f2868675952864401a566cf9c3c799b3c2b53d15e44f",
+    "tests/test_configs.py": "51feca651e1bdc13b48f07ba468ee76028093651c53b70da8d7f151b5751b646",
+    "tests/test_cuda_smoke.py": "12cedad33ad1fbdefecb77ed0fd08b3e1776790ab0bc822b41d82a79fe86d55a",
+    "tests/test_evaluation_metrics.py": "347f1ef88a34f9b5252a7254350a6243715d9075acb873ed4001ae4d450acf80",
+    "tests/test_import_isolation.py": "7dc1d69e995b7c2683d902cd77f8f170bf45b3b23d9dcc9955113c825e79213f",
+    "tests/test_models.py": "07a1877a6ae079757d63d8eb4ba6048b0044b3bc60b6bcbf0eadb293a21b6331",
+    "tests/test_official_data.py": "762ad303b786e39cdedd9709583006a64a7e2b468a53d6e97c317f4b37c14dd7",
+    "tests/test_pipelines.py": "0f5e4d1b3a1b7d76f9e2a3471cf97c740aaf0f7285e5997b246f8c5a7e21232d",
+    "tests/test_release.py": "0b9197314f553b2ae17a63b366f6f9e35dfbfe27ab97db3e7b629b91c53afc2c",
+    "tests/test_results.py": "cd5eaefcc597751f535793ce0af70eefddcad58975fdfe7b3b73e006e6a5775f",
+    "tests/test_sweep.py": "67a3cd221a1f9afa6ecbc976a8c382b1d8b4a43b304f781d457f37dbddb0abfd",
+    "third_party/SirenFNO/SirenFNO1D.py": "dcb5e0c8845c3b1730638a06e25d7c82a4589b52c85ccda681e088dc8e2387a1",
+    "third_party/SirenFNO/SirenFNO2D.py": "57885275c2c39e9a8e62410fc21c837d3a8d310851edaaf59f9b14a7e8ddc5be",
+    "third_party/SirenFNO/SirenSpectralConv_ablation.py": "faed5d1a7ea34c373844d59c8226bc2da36d04e5e6ed9a76b6d9caf02177e068",
+    "third_party/SirenFNO/baseline/AMFNO.py": "6b857eeed0905c87f01101fe735ac36717d5cfafa8354db0132a4504bcf0fc28",
+    "third_party/SirenFNO/baseline/UFNO.py": "dde0c42004a590d9b3f33880f1351e882237c9b753bd4f2830320be141a136c3",
+    "third_party/SirenFNO/baseline/__init__.py": "edf2ec10f04c8bc4e374ee1554239038632eea43669e806405f8c96ce36ccb9c",
+    "third_party/SirenFNO/neuralop/__init__.py": "03a64a86d79ef8510b1c03a78083841ebbd5b1901312495b3dd5ef719403aad1",
+    "third_party/SirenFNO/neuralop/data/__init__.py": "a307653657b813386fa7f9ad26855c6d51b9f7a9c418c5745d3e42408ee5a3a1",
+    "third_party/SirenFNO/neuralop/data/datasets/__init__.py": "ce941ff8b74cb5c570d1fe9ed042c364b7feefc8b0cf747fd0b9ce7b8b854f46",
+    "third_party/SirenFNO/neuralop/data/datasets/burgers.py": "dad8e12c2bf7dc24ca7d9dd5b00ff84f476af5131123485a9792e01321c2348e",
+    "third_party/SirenFNO/neuralop/data/datasets/car_cfd_dataset.py": "85ba78f2c3771c7d4159a0e9889678c6c3fb6d2255ddc2c057e3c736f3523fe4",
+    "third_party/SirenFNO/neuralop/data/datasets/darcy.py": "d91e88d1c8d1a774c39c461e613156115f915890a4d0ce5f7333c4984a01ee09",
+    "third_party/SirenFNO/neuralop/data/datasets/dict_dataset.py": "294675629cbe1903fb756e4643917edb3d81116be1e9741d43c6d39b3834e180",
+    "third_party/SirenFNO/neuralop/data/datasets/hdf5_dataset.py": "5251cb1f1e5a23f94c28ba0b619869c0f53d65ba6ae2e1da3b9d9a997e46fde3",
+    "third_party/SirenFNO/neuralop/data/datasets/mesh_datamodule.py": "643b0bd0d97de11a70f791f615b293b9124dec9c3bddf7d3afd71cfc0bf2f487",
+    "third_party/SirenFNO/neuralop/data/datasets/navier_stokes.py": "91350bdf865bea20e11344731a45690589d9cd08e8cf5b8b8c91f423e7307f2b",
+    "third_party/SirenFNO/neuralop/data/datasets/nonlinear_poisson.py": "98d2766e3c26fcfa6ffdd42b914e472d74d46f16675b1700861703a83905ea2c",
+    "third_party/SirenFNO/neuralop/data/datasets/pt_dataset.py": "b5cd1c05c4135f59d5680c2a7360d21f9683589879297dab907f24b9872757ea",
+    "third_party/SirenFNO/neuralop/data/datasets/spherical_swe.py": "f30e695961f491a6e6bb5435f41b1f24bdefd011314b82b3f98ccbff6d439b3c",
+    "third_party/SirenFNO/neuralop/data/datasets/tensor_dataset.py": "ea2a9af1075a841de6df015489647ad38c9d0de32f4a1a64c977492a5aad1878",
+    "third_party/SirenFNO/neuralop/data/datasets/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "third_party/SirenFNO/neuralop/data/datasets/tests/test_ptdatasets.py": "1b89badbdf9d24aff42342d1c2b1272b0b3dc575148013d7c7655b0bf5e659fd",
+    "third_party/SirenFNO/neuralop/data/datasets/the_well_dataset.py": "ff81d75755e5f4d4270acd33f939d74a1ac0e0dfe813bc7ba8db14a804ddde0a",
+    "third_party/SirenFNO/neuralop/data/datasets/web_utils.py": "b6281a912b7d6cec847dbde28e1d9bf6de38656cffedbc1dab92767850a75a01",
+    "third_party/SirenFNO/neuralop/data/datasets/zarr_dataset.py": "ddccf9822aa4ca64b64887032a86aef9b0f056ab76f92634ad20026fac07b2f5",
+    "third_party/SirenFNO/neuralop/data/transforms/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "third_party/SirenFNO/neuralop/data/transforms/base_transforms.py": "f2f992c86a9eecc71771ca302e1432f915193e7be80598ebf179b2fdc25ef253",
+    "third_party/SirenFNO/neuralop/data/transforms/data_processors.py": "b11aa953287af5dcdd0948d502e81a2a87844831e47acfd97f426605bb9f370f",
+    "third_party/SirenFNO/neuralop/data/transforms/normalizers.py": "c7ad2b64f353816bd40e96f70e30d1d4cd24801f0d189da2a6577acd39eefe85",
+    "third_party/SirenFNO/neuralop/data/transforms/patching_transforms.py": "e8663e801a514176e5df641f84a544a9146e90746ea00e2549619aa9f7d7fad8",
+    "third_party/SirenFNO/neuralop/data/transforms/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "third_party/SirenFNO/neuralop/data/transforms/tests/test_data_processor.py": "9cd013dd18709f4ae8ceb558fc1fea9a692346941aa91bfbff42a823e4132d1d",
+    "third_party/SirenFNO/neuralop/data/transforms/tests/test_unit_gaussian_normalizer.py": "1dcd570bb670f4d4a7f1bd10c8806342f70575a1886a25adeb10c4e76c45a38b",
+    "third_party/SirenFNO/neuralop/data/transforms/the_well_data_processors.py": "dc5e5cad3dbc130befcdc35b65f62622284caebec906ea153ac47484e7fce805",
+    "third_party/SirenFNO/neuralop/layers/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "third_party/SirenFNO/neuralop/layers/attention_kernel_integral.py": "302b863641bfedd2f8e84da3916646e0a7676a0aafc62ab41a52ff3876965513",
+    "third_party/SirenFNO/neuralop/layers/base_spectral_conv.py": "9f24e2282a1aa8598b86bba8486e8120e21da66c3413fd00f17bb56ef5fa77cf",
+    "third_party/SirenFNO/neuralop/layers/channel_mlp.py": "f0cfe19467ebe6509cf7e3794b6cc3bc13aa616cda2e60f992d096002e3cd6f1",
+    "third_party/SirenFNO/neuralop/layers/coda_layer.py": "399508b6000af692eef94c38b06aa05b213e503ab622c0a35b4d6b168f1d02ff",
+    "third_party/SirenFNO/neuralop/layers/complex.py": "2887091ac31512e90e5af78cc9fb2af540d9ed152748bd57da8691e77d051e5a",
+    "third_party/SirenFNO/neuralop/layers/differential_conv.py": "2bc1a6377d0fd5f81c5a7d636a06ae85276d192a73cb1c971383b604639bfbfa",
+    "third_party/SirenFNO/neuralop/layers/discrete_continuous_convolution.py": "5f69e150b52416438350bf9c44b56676eb1918febcf1eda8f7eac5c698ea424e",
+    "third_party/SirenFNO/neuralop/layers/einsum_utils.py": "8b7bdaeb1c40891b0869c302bd4279b833d9987426160bd4d322f8d570f441bd",
+    "third_party/SirenFNO/neuralop/layers/embeddings.py": "fc1c20febe7f1983dcee3045b7e3ff8491176cfa0d6491886f98c391e5d9db44",
+    "third_party/SirenFNO/neuralop/layers/fno_block.py": "8f3c89ed7ab0a11b36270bebf65fc465dca600fd0337df8200b8ad030e860325",
+    "third_party/SirenFNO/neuralop/layers/fourier_continuation.py": "d7a768d004224f8b10200215954f70f14bdad0397be1ffa5908c8e75d3d16476",
+    "third_party/SirenFNO/neuralop/layers/gno_block.py": "6a3fee2c3778918a9fcf727272929a46a469863eb2184cc1171722258ebf8c48",
+    "third_party/SirenFNO/neuralop/layers/gno_weighting_functions.py": "700ac9039e88d3675a5051fafa8dc50cf22df09ed658d4aa5d80a9b420db33ae",
+    "third_party/SirenFNO/neuralop/layers/integral_transform.py": "3b8caee914a4051006d8c63f016c6d072a6206b03b8270906250da76c6902b97",
+    "third_party/SirenFNO/neuralop/layers/legacy_spectral_convolution.py": "27c9c5b3eceb1c52ee7d8d1e45c1f138f6fd4b719044ee0b424fb508abd0dedf",
+    "third_party/SirenFNO/neuralop/layers/local_no_block.py": "cef0b17028566991af2348bfe97208fe2847b1ce42c70a48fc952508e303b91e",
+    "third_party/SirenFNO/neuralop/layers/neighbor_search.py": "9f94e8e8dbfd1b0056704c7c5ffee574e15fcba7b150b3d7e52761730ce02a8f",
+    "third_party/SirenFNO/neuralop/layers/normalization_layers.py": "4341848d5636d771e85d0c56db60735a7a0bfa75a8fad940455e5e660f6295f6",
+    "third_party/SirenFNO/neuralop/layers/padding.py": "9e14edd01b04e094e4aa6b17893c3612934a442ab29c834af9dbb98d8dbf2861",
+    "third_party/SirenFNO/neuralop/layers/resample.py": "c30c22a07371cfdfa2267ec24e80378a564f383c8bf1824a0d868bd698678e7c",
+    "third_party/SirenFNO/neuralop/layers/segment_csr.py": "7e59446438a221673a191e90e400a1b48c90ef77f6e07d620a1d0010a8aabbd6",
+    "third_party/SirenFNO/neuralop/layers/skip_connections.py": "d5b874be5e460e82680391da8207ee0474af52f3fdb75617b56fff5e6739a04f",
+    "third_party/SirenFNO/neuralop/layers/spectral_convolution.py": "ac7489ac3f5f2d994d7d32816a1962b667f0b94bf516cbcd649747c0ddc676a5",
+    "third_party/SirenFNO/neuralop/layers/spherical_convolution.py": "dcf87136fce614d47c820834ec91a0e6ddc07ddc81c94dd1f87d8ace4195353d",
+    "third_party/SirenFNO/neuralop/layers/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "third_party/SirenFNO/neuralop/layers/tests/test_attention_layer.py": "cf31abde1fbc16ffd45409c92b3bdc2d325c8de5a34a76add25eda20c2c66735",
+    "third_party/SirenFNO/neuralop/layers/tests/test_coda_layer.py": "b48a64b99c5b09143514fb4b53f55fb2ef955510dbc273353e25121da6c77ffc",
+    "third_party/SirenFNO/neuralop/layers/tests/test_disco_conv.py": "0271d15fbe80ebf34f75156be3e2b3fcaab195915f0624ea6f499a5859e54c81",
+    "third_party/SirenFNO/neuralop/layers/tests/test_finite_difference_conv.py": "4ee2539d9b1ec39d818995c6a572a9caaf1b0f819f44d8b4b114550ef739de34",
+    "third_party/SirenFNO/neuralop/layers/tests/test_fno_block.py": "355febcd671aeefb6921b2b27b7d495ecdf50dd5726f7a8cb9eda06fa23e7ba5",
+    "third_party/SirenFNO/neuralop/layers/tests/test_fourier_continuation.py": "31c4f33b8d2559daa0682ca6905ec40f6a3a639cc47ac082ebd67c073f549a8d",
+    "third_party/SirenFNO/neuralop/layers/tests/test_gno_block.py": "63dfcc6c8d3818eb42a4807269865ee153f3f7137b1f6d4f03310f2402fcbb29",
+    "third_party/SirenFNO/neuralop/layers/tests/test_grid_embeddings.py": "7b41c7dc416608599f7c2ef3313897cfc5716d905fcad9d99c5626e599c0964a",
+    "third_party/SirenFNO/neuralop/layers/tests/test_legacy_spectral_convolution.py": "83b88761fd607f297634d6c34e34a964f21b56248b055479f29a183a7fd9e386",
+    "third_party/SirenFNO/neuralop/layers/tests/test_local_no_block.py": "34ded0f7e61c9c06a9ea6b51b265eaa12b51c623d6c9907706fd570cfc2313dc",
+    "third_party/SirenFNO/neuralop/layers/tests/test_neighbor_search.py": "bb453a530af73c1ccaf439264ddcb57e335ff8339d44856277b144276f8a9e95",
+    "third_party/SirenFNO/neuralop/layers/tests/test_padding.py": "34429f59eed96718c0f8b0d1d5b8189b0a9dec220f0e5d1e7699750cc11b1559",
+    "third_party/SirenFNO/neuralop/layers/tests/test_resample.py": "0e69fbf84ba45d7f7d1c3fa48193a43c1c43a59e8b0613248a83e13bc46d1166",
+    "third_party/SirenFNO/neuralop/layers/tests/test_segment_csr.py": "b58af8ebfe1946c4c2883a8a52da7bc63ea8da0607c7921cc6c058e726d487bc",
+    "third_party/SirenFNO/neuralop/layers/tests/test_sin_embeddings.py": "339254951d14d0350d13f58285f3a06fcc86ea6357d1d4ba30f3097f999b796e",
+    "third_party/SirenFNO/neuralop/layers/tests/test_spectral_convolution.py": "ae75537920c095c1be180c9822e3c44a53e6f34fab6ef36c8f1137a7afe660e4",
+    "third_party/SirenFNO/neuralop/layers/tests/test_spherical_convolution.py": "e4addd8c3f29648b75bf37b40b62f62660767ce98d1f42ebbfd9c6d7a2cb8751",
+    "third_party/SirenFNO/neuralop/losses/__init__.py": "cba86f8f9e72b652f926872b72c8fbe2e1fedeb03f0c8262d29921f6ca6bea40",
+    "third_party/SirenFNO/neuralop/losses/data_losses.py": "2ad4570da67dae0c4bb47ad371bfc6d39306db4001c0d4dd71b39445790b8603",
+    "third_party/SirenFNO/neuralop/losses/equation_losses.py": "d5c3cade16ffba52ac4686a5f07b95745b3747ff7eb9fc84050d99682baf12e6",
+    "third_party/SirenFNO/neuralop/losses/finite_diff.py": "94c5a2a6af50838ec3aa7eafc1803dcf57117d5d7ac88332137210c689353d87",
+    "third_party/SirenFNO/neuralop/losses/meta_losses.py": "185942cb95b93e199dcbdbf81ab6be7ad3e6f06bcbc7a4d35a8065d4a40c913d",
+    "third_party/SirenFNO/neuralop/losses/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "third_party/SirenFNO/neuralop/losses/tests/test_losses.py": "4e7df7a104a66f8f888d460b5adffb9e2fad879db6b4c2204d484cc893a9c642",
+    "third_party/SirenFNO/neuralop/models/__init__.py": "868d374a6867c86494f3db29c5db37963e521b6804e29f6d2c3ea12595e50bd2",
+    "third_party/SirenFNO/neuralop/models/base_model.py": "ca7b6b46a52fd00adeb295e8f65abb5facb7c64af0c2e32f3c0a738f7d3fa8ef",
+    "third_party/SirenFNO/neuralop/models/codano.py": "30b0e4bec5f32d27fac49930d67923be5fc428e80d295589970b616a64c17ea0",
+    "third_party/SirenFNO/neuralop/models/fno.py": "53396b99d183dfbfe51c1d127d54a93e06e486e3cde45ab7e52d7a27e9bca321",
+    "third_party/SirenFNO/neuralop/models/fnogno.py": "1430320ee47083ae361cc5387354548d75b446a3e5a028cc1a88b81116373eeb",
+    "third_party/SirenFNO/neuralop/models/gino.py": "d3e12ef07380acea65b6350803ec792dbb5e4883487d5ce85254650d45ec2e69",
+    "third_party/SirenFNO/neuralop/models/local_no.py": "8d8e368d89e6642fc73c2f4ff45b7959733b86aec0f949c9d2de282aab364c0d",
+    "third_party/SirenFNO/neuralop/models/sfno.py": "4d97a3c80170a36b183676e738164cd4631d8e8b75376c9e2d7b9bb6f1677429",
+    "third_party/SirenFNO/neuralop/models/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "third_party/SirenFNO/neuralop/models/tests/test_codano.py": "d7381a805e620574344a60aee7d0fb734e9372cd7b1b36755642939e6fbf2538",
+    "third_party/SirenFNO/neuralop/models/tests/test_fno.py": "a27885e7a40ade9a352d1d0b32e1f401128fb634798e58235c661ba1c6446476",
+    "third_party/SirenFNO/neuralop/models/tests/test_fnogno.py": "9cd366e54aa51c3ff1cb74e04d7a46185f962adae8a5df663b386ca1a0c23647",
+    "third_party/SirenFNO/neuralop/models/tests/test_gino.py": "4493e718ce6f7547a9788fbf13e75d3c1327c646dbbc2d3082ecd1bac200ceb2",
+    "third_party/SirenFNO/neuralop/models/tests/test_local_no.py": "dde66d1cdd88e5ee5b75545950e4dc3ae5caae3bd15d8b5117d6bf032d392d61",
+    "third_party/SirenFNO/neuralop/models/tests/test_uno.py": "0f5c3b82385b2ce7d2cf78249a3b51ceb392321e76cb235a7a2d63f6d0b322f1",
+    "third_party/SirenFNO/neuralop/models/tests/test_uqno.py": "f6b838bee853be6e3225851bbaba27924ee0f56830f6355523d7cc624be885df",
+    "third_party/SirenFNO/neuralop/models/uno.py": "d41cccd85983bcbab4be2b03c78d4756f68cfb27cba3259438d9a9f2b0cf120e",
+    "third_party/SirenFNO/neuralop/models/uqno.py": "4b98b10e1f7fb67c0f33e0d4420ad24f40bbeb90f6aa4d98f13a9290ecc3fbba",
+    "third_party/SirenFNO/neuralop/mpu/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "third_party/SirenFNO/neuralop/mpu/comm.py": "7ffad5de6b50762c00c9a3036a5a1a8523b4e078b2c200972fe7872f5c63ca61",
+    "third_party/SirenFNO/neuralop/mpu/helpers.py": "2e1b72c26669e25bf3231874f4d555528592bf7079d6c2f3baf198cc1a8ed4dc",
+    "third_party/SirenFNO/neuralop/mpu/mappings.py": "442e266ed0758deb4cbf2cf99300ddd9f741aa097f2ebd8d25b7dceffc04162a",
+    "third_party/SirenFNO/neuralop/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "third_party/SirenFNO/neuralop/tests/test_config.py": "50ecf5003ceaf519e63d3d9a4a94620f700b74146622b5fa6742f00d0a95d00d",
+    "third_party/SirenFNO/neuralop/tests/test_config_key.txt": "65f7351ae3a88092fa7dad99a74849007d4e702809cd85e8a26167f05ae67fae",
+    "third_party/SirenFNO/neuralop/tests/test_model_from_config.py": "346ec0d1cb9855f00fe2db1b47c7f0706447eb69ab2a91ab1bf882629f0e80a5",
+    "third_party/SirenFNO/neuralop/tests/test_utils.py": "09f274c05b7b8cb8ae45a324536392a451bd32725fe39086dd807bf643e55c69",
+    "third_party/SirenFNO/neuralop/training/__init__.py": "f7a895ab796528dfaeaac05f52d09472d4ff36ab27a56626cfc3db6058cbf9e8",
+    "third_party/SirenFNO/neuralop/training/adamw.py": "30423d31c5813ff51662a87cf6326f60000c27cf1f4ce4d8c186a99e8bfd7895",
+    "third_party/SirenFNO/neuralop/training/incremental.py": "c96daea3793267cd3f206b8da937a1510f3bba8063b70d0ccb3c2cfd77c37044",
+    "third_party/SirenFNO/neuralop/training/patching.py": "8e46229c89b9a351fc4b66c0ba849d6f5e9b5d72baf3f3de2e79df8e4c99d226",
+    "third_party/SirenFNO/neuralop/training/tensor_galore_projector.py": "0238dab3d3248272e848741832d2004516257fb64cdf964c47cbd04f45b6fa03",
+    "third_party/SirenFNO/neuralop/training/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "third_party/SirenFNO/neuralop/training/tests/test_optim.py": "f0885fe39210f76fed25a1d1415806adde3d6ec79019a27bb4c08255322b4f64",
+    "third_party/SirenFNO/neuralop/training/tests/test_patching.py": "e05dcce5f89b2fb2431142139d3af9a051c32c5b5191af43c504c7f035862826",
+    "third_party/SirenFNO/neuralop/training/tests/test_trainer.py": "691cd7f845b8aab71626b6d55cda9c700f4fc1f8b8bddb7485bd7bbb928f1486",
+    "third_party/SirenFNO/neuralop/training/torch_setup.py": "28b8d265a2a7103c382d98f537ca3a59ebbf44bdee8248241e2c980b02d73a7e",
+    "third_party/SirenFNO/neuralop/training/trainer.py": "146d30e16436078db36c63710e556714e0ff0c9ebb8555d0bf9e59289ae18c92",
+    "third_party/SirenFNO/neuralop/training/training_state.py": "a8b5be253e4c3bb1f467fe2ba909652bd851ea7d970ee943aab4c6a1c2f1cbd0",
+    "third_party/SirenFNO/neuralop/utils.py": "aaaa74ace6c7b34d78591a1b24fba9c9f234f47c92c9475db760428922f425b8",
+    "third_party/SirenFNO/requirements.txt": "2028d2c3382bbdeb9fc0d5620b947ca7ca26915847c9a7783aa3fe1e5744376d",
+    "third_party/SirenFNO/train_Burgers.py": "1945e3d03aaea6f846934592677915dad359ab75df7c24819d535f6f9ec08e7b",
+    "third_party/SirenFNO/train_CFD.py": "f23685dc66fbc9f829feb5414d5cf11b68b1bdb2aee771686319be02d7f80a7d",
+    "third_party/SirenFNO/train_CFD2D.py": "424b4a5bca8d486f3a1c003ee059e97453ba8102946542d3fa2df236fcada326",
+    "third_party/SirenFNO/train_Darcy128.py": "00fbf832d5d1a75ea4c9628002ebad2f5b89c955c2534a787a33ccf01338c450",
+    "third_party/SirenFNO/train_Darcy32.py": "04c5105e157c5dce7d5c6d9bec4e7e6154bc1f5ea191bf5cabda3448729e3162",
+    "third_party/SirenFNO/train_NS.py": "0a8d5bda8e6309a6763594b641b148a1ef32c57e3e484de6be1f2f71e571ac8b",
+    "third_party/SirenFNO/train_ReacDiff.py": "8d17bd2c7330fd8c8c207416338f981db18528172db6525fae9d13bf52cfe2f6",
+    "third_party/SirenFNO/utils.py": "ce81e40d53316f981acc9891ad31ddd80515fb0d16f798692a12bbc8309326b2",
+    "third_party/UPSTREAM_VERSIONS.json": "10e66951ade7341ff489678efeb531cb6a71cbbb7b2534b92f688449321141b9"
+  },
+  "hash_algorithm": "sha256",
+  "known_parent_limitations": [
+    "Native Airfoil, CFD2D and ReacDiff dense parameter-count guards retain A counts.",
+    "Parent tests and documentation were not updated with this B config commit.",
+    "No parent validator, existing result or recorded training commit was modified.",
+    "Native adapter dynamic execution and actual historical result reuse were not run."
+  ],
+  "normalization": "CRLF to LF; all other bytes preserved",
+  "reviewed_changes": [
+    {
+      "all_other_ast_identical": true,
+      "changes": {
+        "cafe_branch_dim": {
+          "A": null,
+          "B": 64
+        },
+        "kernel_hidden_dim": {
+          "A": 32,
+          "B": 64
+        }
+      },
+      "classification": "requested_five_dataset_dense_config",
+      "dataset": "airfoil",
+      "feature_embedding_dim_unchanged": 128,
+      "git_objects": {
+        "A": "2dc4ef7fccabe89030132f62b78b27a107686578",
+        "B": "2ecab07c149cd3fc9d4d9386554823fbfbfe0713"
+      },
+      "native_recorded_dense_parameter_count_unchanged": 456993,
+      "parameter_delta_method": "unchanged dense Linear branch and joint MLP formulas; no model execution",
+      "parameter_delta_static_derivation": 196224,
+      "path": "experiments/configs/airfoil.py",
+      "predicted_B_dense_parameter_count_if_A_anchor_valid": 653217,
+      "resolved_branch_dim": {
+        "A": 128,
+        "B": 64
+      }
+    },
+    {
+      "all_other_ast_identical": true,
+      "changes": {
+        "cafe_branch_dim": {
+          "A": null,
+          "B": 64
+        },
+        "kernel_hidden_dim": {
+          "A": 32,
+          "B": 64
+        }
+      },
+      "classification": "requested_five_dataset_dense_config",
+      "dataset": "burgers1d",
+      "feature_embedding_dim_unchanged": 96,
+      "git_objects": {
+        "A": "97efbb26e226840c572f43f960ece6181d4f6cc4",
+        "B": "ff994b092914c57c0b597a1cf29f721beb8a8b94"
+      },
+      "native_recorded_dense_parameter_count_unchanged": null,
+      "parameter_delta_method": "unchanged dense Linear branch and joint MLP formulas; no model execution",
+      "parameter_delta_static_derivation": 241536,
+      "path": "experiments/configs/burgers1d.py",
+      "predicted_B_dense_parameter_count_if_A_anchor_valid": null,
+      "resolved_branch_dim": {
+        "A": 96,
+        "B": 64
+      }
+    },
+    {
+      "all_other_ast_identical": true,
+      "changes": {
+        "cafe_branch_dim": {
+          "A": null,
+          "B": 32
+        },
+        "kernel_hidden_dim": {
+          "A": 32,
+          "B": 64
+        }
+      },
+      "classification": "requested_five_dataset_dense_config",
+      "dataset": "cfd1d",
+      "feature_embedding_dim_unchanged": 96,
+      "git_objects": {
+        "A": "5bf85402774b4953bc6c30944fc8395b34ec358e",
+        "B": "2c349b0ceb9696086e48a924a8074d0dce5dac3c"
+      },
+      "native_recorded_dense_parameter_count_unchanged": null,
+      "parameter_delta_method": "unchanged dense Linear branch and joint MLP formulas; no model execution",
+      "parameter_delta_static_derivation": 208512,
+      "path": "experiments/configs/cfd1d.py",
+      "predicted_B_dense_parameter_count_if_A_anchor_valid": null,
+      "resolved_branch_dim": {
+        "A": 96,
+        "B": 32
+      }
+    },
+    {
+      "all_other_ast_identical": true,
+      "changes": {
+        "cafe_branch_dim": {
+          "A": null,
+          "B": 32
+        },
+        "kernel_hidden_dim": {
+          "A": 32,
+          "B": 64
+        }
+      },
+      "classification": "requested_five_dataset_dense_config",
+      "dataset": "cfd2d",
+      "feature_embedding_dim_unchanged": 128,
+      "git_objects": {
+        "A": "2435a93b5aa2922e549e64a3adfcdaf31f0faf80",
+        "B": "55a204113a012d9e9d754ec2ab13ebac011517a9"
+      },
+      "native_recorded_dense_parameter_count_unchanged": 457089,
+      "parameter_delta_method": "unchanged dense Linear branch and joint MLP formulas; no model execution",
+      "parameter_delta_static_derivation": 155008,
+      "path": "experiments/configs/cfd2d.py",
+      "predicted_B_dense_parameter_count_if_A_anchor_valid": 612097,
+      "resolved_branch_dim": {
+        "A": 128,
+        "B": 32
+      }
+    },
+    {
+      "all_other_ast_identical": true,
+      "changes": {
+        "cafe_branch_dim": {
+          "A": null,
+          "B": 64
+        },
+        "kernel_hidden_dim": {
+          "A": 32,
+          "B": 64
+        }
+      },
+      "classification": "additional_dense_config_change_requires_scope_decision",
+      "dataset": "darcy",
+      "feature_embedding_dim_unchanged": 128,
+      "git_objects": {
+        "A": "4f622ea2932cc8b98561f0b232c824e3442e7ca2",
+        "B": "ae0b43822c4ec37c42b1dfc0c1e3346baeeefb70"
+      },
+      "native_recorded_dense_parameter_count_unchanged": null,
+      "parameter_delta_method": "unchanged dense Linear branch and joint MLP formulas; no model execution",
+      "parameter_delta_static_derivation": 196224,
+      "path": "experiments/configs/darcy.py",
+      "predicted_B_dense_parameter_count_if_A_anchor_valid": null,
+      "resolved_branch_dim": {
+        "A": 128,
+        "B": 64
+      }
+    },
+    {
+      "all_other_ast_identical": true,
+      "changes": {
+        "cafe_branch_dim": {
+          "A": null,
+          "B": 64
+        },
+        "kernel_hidden_dim": {
+          "A": 32,
+          "B": 64
+        }
+      },
+      "classification": "additional_dense_config_change_requires_scope_decision",
+      "dataset": "ns2d",
+      "feature_embedding_dim_unchanged": 128,
+      "git_objects": {
+        "A": "520a99125aeadd585c580dcbcf86552d36062219",
+        "B": "b5bdf45c02b7a90327c5a2de3c694d3bc787061e"
+      },
+      "native_recorded_dense_parameter_count_unchanged": null,
+      "parameter_delta_method": "unchanged dense Linear branch and joint MLP formulas; no model execution",
+      "parameter_delta_static_derivation": 196224,
+      "path": "experiments/configs/ns2d.py",
+      "predicted_B_dense_parameter_count_if_A_anchor_valid": null,
+      "resolved_branch_dim": {
+        "A": 128,
+        "B": 64
+      }
+    },
+    {
+      "all_other_ast_identical": true,
+      "changes": {
+        "cafe_branch_dim": {
+          "A": null,
+          "B": 32
+        },
+        "kernel_hidden_dim": {
+          "A": 32,
+          "B": 64
+        }
+      },
+      "classification": "requested_five_dataset_dense_config",
+      "dataset": "reacdiff1d",
+      "feature_embedding_dim_unchanged": 96,
+      "git_objects": {
+        "A": "6f1da6b67201bc3703ba7a65b4708399240ee362",
+        "B": "71cd41551a7bcd94387535f8189d325d959feaf1"
+      },
+      "native_recorded_dense_parameter_count_unchanged": 395521,
+      "parameter_delta_method": "unchanged dense Linear branch and joint MLP formulas; no model execution",
+      "parameter_delta_static_derivation": 208512,
+      "path": "experiments/configs/reacdiff1d.py",
+      "predicted_B_dense_parameter_count_if_A_anchor_valid": 604033,
+      "resolved_branch_dim": {
+        "A": 96,
+        "B": 32
+      }
+    }
+  ],
+  "runtime_execution_commit_policy": "base_source_commit is B; actual_ablation_source_commit is separately verified from integrated execution source C.",
+  "schema_version": 3,
+  "selection_decision": {
+    "A": [
+      "darcy",
+      "ns2d"
+    ],
+    "B": [
+      "airfoil",
+      "burgers1d",
+      "cfd1d",
+      "cfd2d",
+      "reacdiff1d"
+    ],
+    "authority": "explicit user dataset scope after reviewing unexpected Darcy/NS dense changes",
+    "historical_full_reuse_approved": false,
+    "mixed_source_tree_created": false
+  },
+  "sirenfno_commit": "81918ecce323a2fd5c5a54db917598bda088574b",
+  "verification": "Independent B Git paths, HEAD/gitlink, all 200 tracked files versus committed blobs, and A-to-B changes inspected. Listed 189 files preserve the complete prior validation scope. Only seven dense configuration overrides changed; shared models, training/data/evaluation, upstream and environment sources are unchanged. Actual B Full parity and five condition derivation passed for all five approved datasets. Darcy/NS B overrides were explicitly NOT adopted. Supplied B plain Git status is dirty due CRLF-only upstream files; canonical bytes match Git. Clean formal execution checkout is checked independently at execution, not asserted here."
+}
